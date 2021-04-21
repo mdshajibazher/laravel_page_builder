@@ -17,13 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/pappu', function () {
-    return 'pappu';
-});
-
-
 // Route::any('/admin/pages/{id}/build',[\App\Http\Controllers\PageBuilderController::class,'build'])->name('pagebuilder.build');
 // Route::any('/admin/pages/build',[\App\Http\Controllers\PageBuilderController::class,'build'])->name('pagebuilder.build');
+
+
+require __DIR__.'/auth.php';
 
 Route::any('{uri}', [
     'uses' => [\App\Http\Controllers\WebsiteController::class,'uri'],

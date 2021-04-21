@@ -24,6 +24,9 @@
   height:100vh;
   place-items:center
 }
+.alert{
+    color:#eb4d4b
+}
         </style>
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
@@ -31,6 +34,11 @@
         <div class="wrapper">
             <div class="card bg-white">
                 <a href="/admin" style="text-align: center;font-size: 40px"> <img  style="width: 80px"src="https://siteorigin.com/wp-content/themes/siteorigin-theme/pages/page-builder/images/icon.png" alt=""> <br>   Laravel PageBuilder  </a>
+                <p class="alert">
+                    <b>Credentials:</b> <br>
+                    <code>Username: <b>admin</b> </code><br>
+                    <code>Password: <b>changethispassword</b> </code>
+                </p>
             </div>
         </div>
     </body>
