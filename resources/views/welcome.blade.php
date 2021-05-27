@@ -33,12 +33,12 @@
     <body class="bg-gray-100">
         <div class="wrapper">
             <div class="card bg-white">
-                <a href="/admin" style="text-align: center;font-size: 40px"> <img  style="width: 80px"src="https://siteorigin.com/wp-content/themes/siteorigin-theme/pages/page-builder/images/icon.png" alt=""> <br>   Laravel PageBuilder  </a>
-                <p class="alert">
+                <a href="/admin/pages" style="text-align: center;font-size: 40px"> <img  style="width: 80px"src="https://siteorigin.com/wp-content/themes/siteorigin-theme/pages/page-builder/images/icon.png" alt=""> <br>   Laravel PageBuilder  </a>
+                {{-- <p class="alert">
                     <b>Credentials:</b> <br>
                     <code>Username: <b>admin</b> </code><br>
                     <code>Password: <b>changethispassword</b> </code>
-                </p>
+                </p> --}}
             </div>
         </div>
     </body>

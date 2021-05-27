@@ -51,7 +51,7 @@ return [
      |
      */
     'auth' => [
-        'use_login' => true,
+        'use_login' => false,
         'class' => PHPageBuilder\Modules\Auth\Auth::class,
         'url' => '/admin/auth',
         'username' => 'admin',
@@ -67,7 +67,7 @@ return [
      |
      */
     'website_manager' => [
-        'use_website_manager' => true,
+        'use_website_manager' => false,
         'class' => PHPageBuilder\Modules\WebsiteManager\WebsiteManager::class,
         'url' => '/admin'
     ],
